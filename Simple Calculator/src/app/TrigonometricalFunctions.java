@@ -2,15 +2,18 @@ package app;
 
 public class TrigonometricalFunctions {
     public double cosine(double x) {
-        return Math.cos(x);
+        double radians = Math.toRadians(x);
+        return Math.cos(radians);
     }
 
     public double sine(double y) {
-        return Math.sin(y);
+        double radians = Math.toRadians(y);
+        return Math.sin(radians);
     }
 
     public double tangent(double z) {
-        return Math.tan(z);
+        double radians = Math.toRadians(z);
+        return Math.tan(radians);
     }
 
 }
